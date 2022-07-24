@@ -1,0 +1,164 @@
+TD {
+	FONT-SIZE: 9pt
+}
+BODY {
+	BACKGROUND-COLOR: #ffffff; MARGIN: 0px; FONT-FAMILY: Verdana; FONT-SIZE: 12px;
+	padding: 0px;
+}
+TEXTAREA {
+	OVERFLOW: auto
+}
+TEXTAREA {
+	BACKGROUND-COLOR: #ffffff; FONT-FAMILY: Verdana; FONT-SIZE: 12px
+}
+SELECT {
+	BACKGROUND-COLOR: #ffffff; FONT-FAMILY: Verdana; FONT-SIZE: 12px
+}
+FORM {
+	MARGIN: 0px; DISPLAY: inline
+}
+IMG {
+	BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}
+.text3 {
+	LINE-HEIGHT: 20px; COLOR: #000000; FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+.title_black {
+	COLOR: #000000; FONT-SIZE: 24px; TEXT-DECORATION: none
+}
+.word_title {
+	FONT-FAMILY: "ËÎÌו"; COLOR: #003063; FONT-SIZE: 16px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.title_small {
+	LETTER-SPACING: 2px; COLOR: #000000; FONT-SIZE: 18px; TEXT-DECORATION: none
+}
+.word_normal {
+	COLOR: #000000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.table_space {
+	BORDER-BOTTOM: #cccccc 1px; BORDER-LEFT: #cccccc 1px; WIDTH: 10px; LETTER-SPACING: 0px; COLOR: #000000; BORDER-TOP: #cccccc 1px; BORDER-RIGHT: #cccccc 1px; WORD-SPACING: normal; TEXT-DECORATION: none
+}
+.table_space_2 {
+	BORDER-BOTTOM: #cccccc 0px; TEXT-ALIGN: right; BORDER-LEFT: #cccccc 0px; BACKGROUND: none transparent scroll repeat 0% 0%; LETTER-SPACING: 6px; COLOR: #000000; BORDER-TOP: #cccccc 0px; BORDER-RIGHT: #cccccc 0px; TEXT-DECORATION: none
+}
+.table_space_3 {
+	BORDER-BOTTOM: #cccccc 0px; TEXT-ALIGN: right; BORDER-LEFT: #cccccc 0px; BACKGROUND: none transparent scroll repeat 0% 0%; LETTER-SPACING: 1.8mm; COLOR: #000000; BORDER-TOP: #cccccc 0px; BORDER-RIGHT: #cccccc 0px; TEXT-DECORATION: none
+}
+.table_space_4 {
+	BORDER-BOTTOM: #cccccc 0px; TEXT-ALIGN: right; BORDER-LEFT: #cccccc 0px; BACKGROUND: none transparent scroll repeat 0% 0%; LETTER-SPACING: 6px; COLOR: #000000; BORDER-TOP: #cccccc 0px; BORDER-RIGHT: #cccccc 0px; TEXT-DECORATION: none
+}
+.table_space_5 {
+	BORDER-BOTTOM: #cccccc 0px; TEXT-ALIGN: right; BORDER-LEFT: #cccccc 0px; BACKGROUND: none transparent scroll repeat 0% 0%; LETTER-SPACING: 4px; COLOR: #000000; BORDER-TOP: #cccccc 0px; BORDER-RIGHT: #cccccc 0px; TEXT-DECORATION: none
+}
+.table_space_6 {
+	BORDER-BOTTOM: #cccccc 0px; TEXT-ALIGN: right; BORDER-LEFT: #cccccc 0px; BACKGROUND: none transparent scroll repeat 0% 0%; LETTER-SPACING: 1.45mm; COLOR: #000000; BORDER-TOP: #cccccc 0px; BORDER-RIGHT: #cccccc 0px; TEXT-DECORATION: none
+}
+.table_space_7 {
+	BORDER-BOTTOM: #cccccc 0px; TEXT-ALIGN: right; BORDER-LEFT: #cccccc 0px; BACKGROUND: none transparent scroll repeat 0% 0%; LETTER-SPACING: 12px; COLOR: #000000; BORDER-TOP: #cccccc 0px; BORDER-RIGHT: #cccccc 0px; TEXT-DECORATION: none
+}
+.table_input {
+	BORDER-BOTTOM: #cccccc 1px; BORDER-LEFT: #cccccc 1px; LETTER-SPACING: 0px; BORDER-TOP: #cccccc 1px; BORDER-RIGHT: #cccccc 1px; WORD-SPACING: normal; TEXT-DECORATION: none
+}
+.number_red {
+	COLOR: #ff0000; FONT-SIZE: 18px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.number_red_2 {
+	COLOR: #ff0000; FONT-SIZE: 24px; TEXT-DECORATION: none
+}
+.word_red {
+	COLOR: #ff0000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.table_spacedouble {
+	BORDER-BOTTOM: #cccccc 1px; BORDER-LEFT: #cccccc 1px; WIDTH: 16px; LETTER-SPACING: 0px; BORDER-TOP: #cccccc 1px; BORDER-RIGHT: #cccccc 1px; WORD-SPACING: normal; TEXT-DECORATION: none
+}
+.title_ks {
+	FONT-FAMILY: "ËÎÌו"; LETTER-SPACING: 2px; COLOR: #000000; FONT-SIZE: 24px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.title_blue {
+	COLOR: #003063; FONT-SIZE: 24px; TEXT-DECORATION: none
+}
+.word_blue {
+	COLOR: #003063; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.title_small_blue {
+	COLOR: #003063; FONT-SIZE: 16px; TEXT-DECORATION: none
+}
+.title_brown {
+	COLOR: #993366; FONT-SIZE: 24px; TEXT-DECORATION: none
+}
+.title_small_brown {
+	COLOR: #993366; FONT-SIZE: 16px; TEXT-DECORATION: none
+}
+.word_brown {
+	COLOR: #993366; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.title_small_green {
+	COLOR: #008200; FONT-SIZE: 16px; TEXT-DECORATION: none
+}
+.title_green {
+	COLOR: #008000; FONT-SIZE: 24px; TEXT-DECORATION: none
+}
+.word_green {
+	COLOR: #008000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.table_none {
+	BORDER-BOTTOM: #cccccc 1px; BORDER-LEFT: #cccccc 1px; LETTER-SPACING: 0px; BORDER-TOP: #cccccc 1px; BORDER-RIGHT: #cccccc 1px; WORD-SPACING: normal; TEXT-DECORATION: none
+}
+.word_orange {
+	COLOR: #9c3000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.title_small_orange {
+	COLOR: #9c3000; FONT-SIZE: 16px; TEXT-DECORATION: none
+}
+.title_orange {
+	COLOR: #9c3000; FONT-SIZE: 24px; TEXT-DECORATION: none
+}
+.word_blueCopy {
+	LINE-HEIGHT: 25px; COLOR: #003063; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+.table_inputCopy {
+	BORDER-BOTTOM: #cccccc 1px; BORDER-LEFT: #cccccc 1px; LETTER-SPACING: 0px; BORDER-TOP: #cccccc 1px; BORDER-RIGHT: #cccccc 1px; WORD-SPACING: normal; TEXT-DECORATION: none
+}
+.hr {
+	BORDER-BOTTOM: #ff0000 1px dotted; BORDER-LEFT: black 0px dotted; BORDER-TOP: #000000 1px dotted; BORDER-RIGHT: black 0px dotted
+}
+.title_greenCopy {
+	COLOR: #008000; FONT-SIZE: 16px; TEXT-DECORATION: none
+}
+.title_greenCopy2 {
+	COLOR: #008000; FONT-SIZE: 18px; TEXT-DECORATION: none
+}
+.word_titleCopy {
+	FONT-FAMILY: "ËÎÌו"; COLOR: #003063; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.word_blueCopy {
+	COLOR: #003063; FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+.word_blackCopy {
+	LINE-HEIGHT: 23px; COLOR: #000000; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+.title_blackCopy_copy {
+	COLOR: #000000; FONT-SIZE: 18px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.title_greenCopy_copy {
+	COLOR: #008000; FONT-SIZE: 18px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.title_blueCopy_copy {
+	COLOR: #003063; FONT-SIZE: 18px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.title_brownCopy_copy {
+	COLOR: #993366; FONT-SIZE: 18px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.title_redCopy_copy {
+	COLOR: red; FONT-SIZE: 18px; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+.table_inputCopy_2 {
+	BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #cccccc 1px; LETTER-SPACING: 0px; BORDER-TOP: #cccccc 1px; BORDER-RIGHT: #cccccc 1px; WORD-SPACING: normal; TEXT-DECORATION: none
+}
+.table_inputCopy_3 {
+	BORDER-BOTTOM: #000000 1px dotted; BORDER-LEFT: #cccccc 1px; LETTER-SPACING: 0px; BORDER-TOP: #cccccc 1px; BORDER-RIGHT: #cccccc 1px; WORD-SPACING: normal; TEXT-DECORATION: none
+}
+
+.table_input2 {
+	BORDER-BOTTOM: #cccccc 1px; BORDER-LEFT: #cccccc 1px; LETTER-SPACING: 0px; COLOR: #ff0000; BORDER-TOP: #cccccc 1px; BORDER-RIGHT: #cccccc 1px; WORD-SPACING: normal; TEXT-DECORATION: none
+}

@@ -1,0 +1,541 @@
+/*没有线条的表格*/
+/*
+@media print{
+body{transform: scale(0.75);transform-origin:0 0;}
+}
+*/
+.billsys_body  table {
+	border-collapse: separate;
+		
+}
+.billsys_body  table td{
+	border:0px;
+	background:none;
+	background-color:transparent;
+	padding:0px;
+	font-family: Tahoma;
+	font-size: 12px;
+	height:auto!important; 
+	height:23px; 
+	height:23px!important;
+	min-height:23px;
+		
+}
+
+.billsys_body   input[type="text"],.billsys_body  textarea{
+	width:100%;
+	color:#000;
+	border:0px;
+	background:none;
+	background-color:transparent;
+	overflow:hidden;
+	font-family:"\6977\4F53_GB2312","\6977\4F53"!important;
+	font-family:"\6977\4F53_GB2312","\6977\4F53";
+	font-size:12px;
+	font-weight:bold!important;
+	font-weight:bold;
+	line-height:18px!important;
+	line-height:16px;
+	resize:none;
+} 
+
+.billsys_body   input[type="checkbox"],.billsys_body  textarea{
+	width:14px;
+	height:14px;
+	color:#000;
+	border:0px;
+	background:none;
+	background-color:transparent;
+	overflow:hidden;
+	font-family:"\6977\4F53_GB2312","\6977\4F53";
+	font-size:12px;
+	font-weight:bold;
+	resize:none;
+	
+}  
+/*带有线条的表格*/
+.billsys_body .table-border{
+	border-top: 1px solid #000;
+	border-right: 1px solid #000;
+	color:#000;
+	font-family: Tahoma;
+	font-size: 12px;
+}
+
+.billsys_body .table-border td{
+	border-left: 1px solid #000;
+	border-bottom: 1px solid #000;
+	color:#000;
+	font-family: Tahoma;
+	font-size: 12px;
+	
+	height:auto!important; 
+	height:23px; 
+	height:23px!important;
+	min-height:23px;
+}
+
+/*红色*/
+.billsys_body .borderRed{
+	color : #f00;
+	border-color : #f00;
+	font-family: Tahoma;
+	font-size: 12px;
+}
+.billsys_body .borderRed td{
+	color : #f00;
+	font-family: Tahoma;
+	font-size: 12px;
+	border-color : #f00;
+	
+	height:auto!important; 
+	height:23px; 
+	height:23px!important;
+	min-height:23px;
+}
+.billsys_body .table-input-red input, .billsys_body .table-input-red textarea {
+	width:100%;
+	color:#f00;
+	border:0px;
+	background:none;
+	background-color:transparent;
+	overflow:hidden;
+	font-family:"\6977\4F53_GB2312","\6977\4F53";
+	font-size:12px;
+	font-weight:bold;
+	line-height:18px!important;
+	line-height:16px;
+	resize:none;
+}
+/*黑色*/
+.billsys_body .borderBlack{
+	color : #000;
+	border-color : #000;
+	font-family: Tahoma;
+	font-size: 12px;
+}
+.billsys_body .borderBlack td{
+	color : #000;
+	font-family: Tahoma;
+	font-size: 12px;
+	border-color : #000;
+	
+	height:auto!important; 
+	height:23px; 
+	height:23px!important;
+	min-height:23px;
+}
+.billsys_body .table-input-black input, .billsys_body .table-input-black textarea{
+	width:100%;
+	color:#000;
+	border:0px;
+	background:none;
+	background-color:transparent;
+	overflow:hidden;
+	font-family:"\6977\4F53_GB2312","\6977\4F53";
+	font-size:12px;
+	font-weight:bold;
+	line-height:18px!important;
+	line-height:16px;
+	resize:none;
+}
+
+/*蓝色*/
+.billsys_body .borderBlue{
+	color : #006699;
+	border-color : #006699;
+	font-family: Tahoma;
+	font-size: 12px;
+}
+.billsys_body .borderBlue td{
+	color : #006699;
+	font-family: Tahoma;
+    font-size: 12px;
+	border-color : #006699;
+	
+	height:auto!important; 
+	height:23px; 
+	height:23px!important;
+	min-height:23px;
+	
+}
+.billsys_body .table-input-blue input , .billsys_body .table-input-blue textarea{
+	font-family:"\6977\4F53_GB2312","\6977\4F53";
+	width:100%;
+	color:#006699;
+	border:0px;
+	background:none;
+	background-color:transparent;
+	font-size:12px;
+	font-weight:bold;
+	line-height:18px!important;
+	line-height:16px;
+	resize:none;
+}
+
+.billsys_body .table-input-copyBlue input, .billsys_body  .table-input-copyBlue textarea{
+    font-family:"\6977\4F53_GB2312","\6977\4F53";
+	width:100%;
+	color:#0000FF;
+	border:0px;
+	background:none;
+	background-color:transparent;
+	overflow:hidden;
+	font-size:12px;
+	font-weight:bold;
+	line-height:18px!important;
+	line-height:16px;
+	resize:none;
+}
+/*绿色*/
+.billsys_body .borderGreen{
+		color : #006600;
+		border-color : #006600;
+}
+.billsys_body .borderGreen td{
+		color : #006600;
+		font-family: Tahoma;
+	    font-size: 12px;
+		border-color : #006600;
+		
+		height:auto!important; 
+		height:23px; 
+		height:23px!important;
+		min-height:23px;
+	
+	}
+.billsys_body .table-input-green input , .table-input-green textarea{
+		color:#006600;
+		border:0px;
+		background:none;
+		background-color:transparent;
+		overflow:hidden;
+		font-family:"\6977\4F53_GB2312","\6977\4F53";
+		font-size:12px;
+		font-weight:bold;
+		line-height:18px!important;
+		line-height:16px;
+		height:auto!important; 
+		height:16px!important;
+		height:16px; 
+		min-height:16px;
+		resize:none;
+}
+
+/*桔色*/
+.billsys_body .borderYellow{
+		color : #996600;
+		border-color : #996600;
+}
+.billsys_body .borderYellow td{
+		color : #996600;
+		font-family: Tahoma;
+	    font-size: 12px;
+		border-color : #996600;
+		
+		height:auto!important; 
+		height:23px; 
+		height:23px!important;
+		min-height:23px;
+	
+	}
+.billsys_body .table-input-yellow input , .table-input-yellow textarea{
+		color:#996600;
+		border:0px;
+		background:none;
+		background-color:transparent;
+		overflow:hidden;
+		font-family:"\6977\4F53_GB2312","\6977\4F53";
+		font-size:12px;
+		font-weight:bold;
+		line-height:18px!important;
+		line-height:16px;
+		height:auto!important; 
+		height:16px!important;
+		height:16px; 
+		min-height:16px;
+		resize:none;
+}
+/*淡蓝*/
+.billsys_body .borderLightblue{
+		color : #0099cc;
+		border-color : #0099cc;
+}
+.billsys_body .borderLightblue td{
+		color : #0099cc;
+		font-family: Tahoma;
+	    font-size: 12px;
+		border-color : #0099cc;
+		
+		height:auto!important; 
+		height:23px; 
+		height:23px!important;
+		min-height:23px;
+	
+	}
+.billsys_body .table-input-Lightblue input , .table-input-Lightblue textarea{
+		color:#0099cc;
+		border:0px;
+		background:none;
+		background-color:transparent;
+		overflow:hidden;
+		font-family:"\6977\4F53_GB2312","\6977\4F53";
+		font-size:12px;
+		font-weight:bold;
+		line-height:18px!important;
+		line-height:16px;
+		height:auto!important; 
+		height:16px!important;
+		height:16px; 
+		min-height:16px;
+		resize:none;
+}
+/*淡红色*/
+.billsys_body .borderLightred{
+		color : #CF6140;
+		border-color : #CF6140;
+}
+.billsys_body .borderLightred td{
+		color : #CF6140;
+		font-family: Tahoma;
+	    font-size: 12px;
+		border-color : #CF6140;
+		
+		height:auto!important; 
+		height:23px; 
+		height:23px!important;
+		min-height:23px;
+	
+	}
+.billsys_body .table-input-Lightred  input , .table-input-Lightred textarea{
+		color:#CF6140;
+		border:0px;
+		background:none;
+		background-color:transparent;
+		overflow:hidden;
+		font-family:"\6977\4F53_GB2312","\6977\4F53";
+		font-size:12px;
+		font-weight:bold;
+		line-height:18px!important;
+		line-height:16px;
+		height:auto!important; 
+		height:16px!important;
+		height:16px; 
+		min-height:16px;
+		resize:none;
+}
+
+/*紫色*/
+.billsys_body .borderPurple{
+		color : #93C;
+		border-color : #93C;
+}
+.billsys_body .borderPurple td{
+		color : #93C;
+		font-family: Tahoma;
+	    font-size: 12px;
+		border-color : #93C;
+		
+		height:auto!important; 
+		height:23px; 
+		height:23px!important;
+		min-height:23px;
+	
+	}
+.billsys_body .table-input-purple input , .table-input-purple textarea{
+		color:#CF6140;
+		border:0px;
+		background:none;
+		background-color:transparent;
+		overflow:hidden;
+		font-family:"\6977\4F53_GB2312","\6977\4F53";
+		font-size:12px;
+		font-weight:bold;
+		line-height:18px!important;
+		line-height:16px;
+		height:auto!important; 
+		height:16px!important;
+		height:16px; 
+		min-height:16px;
+		resize:none;
+}
+.billsys_body .billsys_pageNoDiv{height:25px}
+.billsys_body .billsys_pageNoDiv a{	
+		background-color: #FFFFFF;
+		border: 1px solid #3a87ad;
+		color: #3a87ad;
+		text-shadow: none;
+		cursor: pointer;
+		border-radius: 3px;
+		text-decoration: none;
+		padding: 1px 3px;	
+		font-size:12px;
+}
+	
+.billsys_body .billsys_pageNoDiv .active{
+		/*color: red;
+		font-weight: normal;*/
+		color: #FFF;
+        background-color: #0bbaf4;
+}
+
+.billsys_body .layer_zbm a{
+		background-color: #FFFFFF;
+		border: 1px solid #3a87ad;
+		color: #3a87ad;
+		text-shadow: none;
+		cursor: pointer;
+		border-radius: 3px;
+		text-decoration: none;
+		padding: 1px 3px;
+		display: inline-block!important;
+		font-size:12px;
+	}
+.billsys_body .layer_zbm .active{
+
+		color: #FFF!important;
+        background-color: #0bbaf4;
+}
+/*数字类型 代号：n */
+.billsys_body .isNumeric {
+	font-family:"\6977\4F53_GB2312","\6977\4F53";
+	font-size:12px;
+	font-style:oblique;
+	line-height:14px;
+	border: 0px;
+	width:100%;
+}
+
+/*小写金额 代号：m */
+.billsys_body .isMoney {
+	font-family:"\5FAE\8F6F\96C5\9ED1"!important;
+	font-size:12px;
+	font-style:oblique;
+	line-height:12px;
+	text-align:right;
+	letter-spacing:7px
+	border: 0px;
+	width:100%;
+}
+/*数字金额羊角符号双横处理*/
+.billsys_body .xiaoxie {
+	font-family:"\5FAE\8F6F\96C5\9ED1"!important;
+	font-size:12px;
+	font-style:oblique;
+	line-height:14px;
+	border: 0px;
+	width:100%;
+}
+/*日期类型 代号：d */	
+.billsys_body .isDate {
+	font-family:"\6977\4F53_GB2312","\6977\4F53"!important;
+	font-size:12px!important;
+	font-style:oblique;
+	text-align:center;
+	letter-spacing: 2px;
+	margin-right: 2px!important;
+	border: 0px;
+	width:100%;
+}
+
+
+/*模拟复选框*/
+.billsys_body  .input_like_checkbox_null{
+	border:0px;
+	height:14px;
+	width:14px;
+	text-align:center;
+	margin:5px;
+	line-height:10px;
+	font-size:10px!important;
+	font-size:12px;
+	cursor:hand;
+	color:#000;
+}
+.billsys_body  .input_like_checkbox{
+	border:1px solid #000;
+	border:1px solid #000!important;
+	height:14px;
+	width:14px;
+	text-align:center;
+	margin:5px;
+	line-height:10px;
+	font-size:10px!important;
+	font-size:12px;
+	cursor:hand;
+	color:#000;
+}
+.billsys_body .borderBlack  .input_like_checkbox{
+	border:1px solid #000;
+	border:1px solid #000!important;
+	height:14px;
+	width:14px;
+	text-align:center;
+	margin:5px;
+	line-height:10px;
+	font-size:10px!important;
+	font-size:12px;
+	cursor:hand;
+	color:#000;
+}
+
+.billsys_body .borderRed  .input_like_checkbox{
+	border:1px solid #f00;
+	border:1px solid #f00!important;
+	height:14px;
+	width:14px;
+	text-align:center;
+	margin:5px;
+	line-height:10px;
+	font-size:10px!important;
+	font-size:12px;
+	cursor:hand;
+	color:#f00;
+}
+.billsys_body .borderBlue .input_like_checkbox{
+	border:1px solid #006699;
+	border:1px solid #006699!important;
+	height:14px;
+	width:14px;
+	text-align:center;
+	margin:5px;
+	line-height:10px;
+	font-size:10px!important;
+	font-size:12px;
+	cursor:hand;
+	color:#006699;
+}
+
+.billsys_body .borderGreen .input_like_checkbox{
+	border:1px solid #006600;
+	border:1px solid #006600!important;
+	height:14px;
+	width:14px;
+	text-align:center;
+	margin:5px;
+	line-height:10px;
+	font-size:10px!important;
+	font-size:12px;
+	cursor:hand;
+	color:#006600;
+}
+
+.billsys_body div  input, .billsys_body div   textarea{
+	width:100%;
+	color:#000;
+	border:0px;
+	background:none;
+	background-color:transparent;
+	overflow:hidden;
+	font-family:"\6977\4F53_GB2312","\6977\4F53";
+	font-size:12px;	
+	line-height:18px!important;
+	line-height:16px;
+	resize:none;
+}
+.billsys_body .bill_formula .input_t {
+  border:1px solid  #006600;
+}
+.billsys_body .bill_formula .input_a {
+  border:1px solid  #006600;
+}

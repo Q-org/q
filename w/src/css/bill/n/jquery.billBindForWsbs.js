@@ -1,0 +1,222 @@
+/*********** ???ϱ?˰ר??  ********
+?ⲿ????????
+var calMap=new Map();
+calMap.put("b1","b2+b3+b4");
+calMap.put("b8","b9+b10");
+calMap.put("b17","b12+b13-b14-b15+b16");
+calMap.put("b18","(b17<b11)?b17:b11");
+calMap.put("b19","b11-b18");
+calMap.put("b20","b17-b18");
+calMap.put("b24","b19+b21-b23");
+calMap.put("b27[0]","b28+b29+b30+b31[0]");
+calMap.put("b33","(b25+b26-b27)>0?(b25+b26-b27):0");
+
+/***?м?:һ??2??һ??Ҫ
+ var bind_bill_type = '<%=actionType%>';//????type????
+ var init_zero_string = "b1[0],b8,b17,b18,b19,b20,b24,b27,b32,b33,b38";//??ʼ????Ҫ?Զ???ֵ
+
+
+$(document).ready(function(){
+	common_init_zreo();//??ʼ????ʱ????????Ҫ?Զ??????ĸ?ֵ
+	doBindCalToInput(calMap);//?ⲿ???? ??̬????propertychange
+	if("6"== bind_bill_type) init_readonly_string(init_zero_string);//??Щ??Ҫ??ʼ????input
+});
+
+ע??:??Ҫ???Ƽ???????С???? ????Ŀ??input?????? ???? toFixed="0"
+*/
+
+
+
+function common_init_zreo(){//??ʼ????ʱ????????Ҫ?Զ??????ĸ?ֵ ͳһ????Ϊ?????????? ?ڡ?ȫ?????ա???ť?¼?????????
+   if(typeof(init_zero_string)=="undefined"||!booleanChangeType()) return false;
+	var init_zero_arr = init_zero_string.split(",");
+	//??????hidden???õ?0.00????Ϊ""?? 
+	$("input[name^=a]:hidden,input[name^=b]:hidden").filter(function(){return $(this).val()=="0.00"|| $(this).val()=="0"}).val("");
+	$.each(init_zero_arr,function(index,value){ 
+        var currInput = regMatchinput(value);
+		if(currInput.index!=""){
+	 		if($("*[name="+currInput.name+"]").eq(currInput.index).val()==""&& $("*[name="+currInput.name+"]").eq(currInput.index).is(":visible"))
+			$("*[name="+currInput.name+"]").eq(currInput.index).val("0.00")
+	    }else{
+			$("*[name="+currInput.name+"]").filter(function(){return $(this).val()==""&&$(this).is(":visible")}).val("0.00");//???˳?inputΪ?յ??Զ???ֵ
+		}
+	 });
+	 
+ }
+ 
+function init_readonly_string(str){//??Ҫreadonly???ֶ?input
+	if(typeof(init_zero_string)=="undefined") return false;
+	var init_zero_arr = init_zero_string.split(",");
+	$.each(init_zero_arr,function(index,value){
+		 var currInput = regMatchinput(value);
+		if(currInput.index!="") //init_readonly ??ѧ????????һ?????? ?൱?? readonly
+		$("*[name="+currInput.name+"]").eq(currInput.index).attr("init_readonly","1").attr("readonly","1")
+		else
+		$("*[name="+currInput.name+"]").attr("init_readonly","1").attr("readonly","1")
+	 });
+}
+
+//?ⲿ???? ??̬????propertychange  
+  function doBindCalToInput(aMap){
+	for(var i=0;i<aMap.arr.length;i++){
+  	bindPropertychange(aMap.arr[i].key,aMap.arr[i].value)
+	}
+}
+
+function inputIndex(name,index){//???????????洢input??name??????ֵ
+    this.name=name;
+	this.index=index;
+}
+
+function regMatchinput(inputname){//ͨ??????????ʽ????b1 ?? b1[0] ?ֱ????ز?ͬ??ֵ
+   if(/[ab]\d+\[\d+]/ig.test(inputname)){//Ϊ????һ??index??Ҫ??ֵ ????b1[0]
+			var currIndex=inputname.match(/\[\d+/ig)[0].substring(1);//??ǰ????ֵindex  [0]?е?0
+			var currInput=inputname.match(/[ba]\d+\[/ig)[0];//??ǰinput???? ????b1
+			currInput= currInput.substring(0,currInput.length-1);
+			 return new inputIndex(currInput,currIndex)
+	}else{
+	   return new inputIndex(inputname,'')
+	}
+}
+
+function regInputformula(formula){//???ؼ??㹫ʽ ??????input ????
+	return formula.match(/[ba]\d+(\[\d+])*/ig)
+}
+
+function booleanChangeType(){//???˲??Զ???????type????
+	if(typeof(bind_bill_type)=="undefined"||bind_bill_type=="")
+	return true;
+	else
+	return ",2,3,4,".indexOf(bind_bill_type)<=0
+}
+
+//????onpropertychange ?ڼ??ص?ʱ??Ҳ???? onpropertychange ?¼? 
+function bindPropertychange(target,formulInit){
+     if(typeof(target)=="undefined") return false;
+	 //??????hidden???õ?0.00????Ϊ""?? 
+	$("input[name^=a]:hidden,input[name^=b]:hidden").filter(function(){return $(this).val()=="0.00"|| $(this).val()=="0"}).val("");
+	
+	 var formula = regInputformula(formulInit)
+	 for(var i=0;i<formula.length;i++){//??Ѱ?ҵ???ƥ??ֵ????propertychange?¼?
+	      var input = regMatchinput(formula[i]);
+		  
+		  if(input.index==""){
+		   $("*[name="+input.name+"]").bind("propertychange",function(e){
+		   	if (e.originalEvent.propertyName == "value"&&booleanChangeType()) //????value?ı䲻ִ???????Ĳ???
+			 doCalCommon(target,formulInit);
+		   })
+		   }else{
+		  
+		   $("*[name="+input.name+"]").eq(input.index).bind("propertychange",function(e){	
+		   if (e.originalEvent.propertyName == "value"&&booleanChangeType()) //????value?ı䲻ִ???????Ĳ???
+		   	 doCalCommon(target,formulInit);
+			})
+			}
+	  }
+}
+
+function doCalCommon(target,formula){//ͨ?ü??㷽??
+  try{
+	 var currentName = $.trim($(event.srcElement).attr("name"));//ȡ?õ?ǰ?ؼ???name  ????Ϊ b1??b2?
+	 
+	 idx = $("*[name="+currentName+"]").index(event.srcElement)//ȡ?õ?ǰ?ؼ???ͬһname??????????ֵ ?൱?? document.getElementsByName()[index] ????index
+	  
+	 var targetObj =  regMatchinput(target);//????inputIndex(name,index)????
+	 
+	 if(targetObj.index=="")//??ǰindexΪ?յ?ʱ????ȡ??ǰ????index??ͬ??input
+	 targetInput = getObjInput(targetObj.name,idx);
+	 else
+	 targetInput = getObjInput(targetObj.name,targetObj.index);
+	 
+	 if($(targetInput).attr("noeval")=="1") return false;
+	
+	 
+	 var calArr = regInputformula(formula);//???ؼ??㹫ʽ ??????input ????
+	
+	 for(var i=0;i<calArr.length;i++){
+	  	var input = regMatchinput(calArr[i]);
+	 	 if(input.index!=""){//??????ֵ??ʱ??  ??????Ϊinput.name_input.index
+	  		curridx=input.index;
+			inputname=input.name+"_"+input.index;
+	 	}else{
+		 	curridx=idx;
+			inputname=input.name;
+	 	}
+	 	
+	 	var inputVal = 0;
+	 	if(typeof(getObjInput(input.name,curridx))!="undefined")//??ǰinput?ؼ?Ϊundefined??ʱ??
+	 	inputVal = Number(getObjInput(input.name,curridx).value,10);
+	 	//if(typeof(getObjInput(input.name,curridx))=="undefined")
+		//eval(inputname+" = 0");
+		//else
+	   //eval(inputname+" = Number(getObjInput('"+input.name+"',"+curridx+").value,10);");
+	   
+	   formula=formula.replace(calArr[i],inputVal);//ֱ?ӽ?????ʽ?滻??value
+	 } 
+	 
+	   var toFixed = $(targetInput).attr("toFixed")?$(targetInput).attr("toFixed"):"2";
+	   targetInput.value=eval("toFixedNumWsbs("+formula+","+toFixed+")");
+	   if($(targetInput).is(":hidden")&&(targetInput.value=="0.00"||targetInput.value=="0")){//??Ŀ??????Ϊ?յ?ʱ?? ???Զ???ֵ0.00 Ϊ?˱?֤????һ???? ???????????ɼ???Χ
+	    targetInput.value="";
+	    }
+	 
+	  }catch(ex){}
+}
+
+//??????
+function getObjInput(objName,objIdx){
+  return document.getElementsByName(objName)[objIdx];
+}
+
+
+//??С??Բ????ָ??λС??
+function toFixedNumWsbs(val1, val2) {
+  if(isNaN(val1)) return 0;
+  if(isNaN(val2)) return val1;
+  var num = new Number(val1);
+  return num.toFixed(val2);
+}
+
+///////****??Map***//
+function struct(key,value){//hashmap?Ľṹ
+		this.key=key;
+		this.value=value;
+		this.getKey=function(){
+			return this.key;
+		}
+		this.getValue=function(){
+			return this.value;
+		}
+	}
+
+function Map(){
+   this.arr=new Array();
+   this.put=function(key,value){
+		for(var i=0;i<this.arr.length;i++){//??key??????map????ʱ???滻value
+			if(this.arr[i].key==key)
+				this.arr[i].value=value;
+		}
+		this.arr[this.arr.length]=new struct(key,value);
+	}
+	
+	this.get=function(key){
+		for(var i=0;i<this.arr.length;i++){
+			if(this.arr[i].key==key)
+				return this.arr[i];
+		}
+		return null;
+	}
+	this.remove=function(key){
+		for(var i=0;i<this.arr.length;i++){
+			if(this.arr[i].key==key){
+					/*
+					  concat??????????һ???????飬???????????????????????????????϶??ɵġ?
+					  ???????????????????Ƿ???this.slice(0,n)/this.slice(n+1,this.length)
+					 ???????????????ɵ??????飬???м䣬?պ????˵?n?
+					  slice?????? ????һ????????һ?Σ????????????ֱ?ָ????ʼ?ͽ?????λ?á?
+					*/
+					this.arr=this.arr.slice(0,i).concat(this.arr.slice(i+1,this.arr.length));
+				}
+         }
+	}
+  }

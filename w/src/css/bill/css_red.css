@@ -1,0 +1,66 @@
+BODY {
+	BACKGROUND-COLOR: #ffffff; MARGIN: 0px; FONT-FAMILY: Tahoma; FONT-SIZE: 12px
+}
+TABLE.commontable {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 50%; BORDER-TOP: #006699 1px solid; BORDER-RIGHT: #006699 1px solid
+}
+.commontable TD {
+	BORDER-BOTTOM: #006699 1px solid; BORDER-LEFT: #006699 1px solid; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+TABLE.commontable TR {
+	BACKGROUND-COLOR: #f9f9f9; HEIGHT: 26px; FONT-SIZE: 12px
+}
+TABLE.commontable TR.title {
+	TEXT-ALIGN: center; WHITE-SPACE: nowrap; BACKGROUND: #d6e3ef; HEIGHT: 28px
+}
+TABLE.commontable TR.lefttitle {
+	BORDER-BOTTOM: #e7e3e7 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #e7e3e7 1px solid; FONT-FAMILY: Tahoma; WHITE-SPACE: nowrap; BACKGROUND: #d6e3ef; HEIGHT: 28px; FONT-SIZE: 12px; BORDER-TOP: #e7e3e7 1px solid; BORDER-RIGHT: #e7e3e7 1px solid
+}
+TABLE.logofont {
+	FONT-FAMILY: Webdings; FONT-SIZE: 9pt
+}
+TABLE.commontable INPUT {
+	BACKGROUND-COLOR: #ffffff; FONT-FAMILY: Tahoma; FONT-SIZE: 12px
+}
+TABLE.commontable TEXTAREA {
+	BACKGROUND-COLOR: #ffffff; FONT-FAMILY: Tahoma; FONT-SIZE: 12px
+}
+TABLE.commontable SELECT {
+	BACKGROUND-COLOR: #ffffff; FONT-FAMILY: Tahoma; FONT-SIZE: 12px
+}
+TABLE.outtable {
+	FONT-FAMILY: Tahoma; COLOR: #ff0000; FONT-SIZE: 12px
+}
+TABLE.outtable INPUT {
+	BORDER-BOTTOM: #cccccc 0px; BORDER-LEFT: #cccccc 0px; FONT-FAMILY: Tahoma; BACKGROUND: none transparent scroll repeat 0% 0%; LETTER-SPACING: 0px; FONT-SIZE: 12px; BORDER-TOP: #cccccc 0px; BORDER-RIGHT: #cccccc 0px; WORD-SPACING: normal
+}
+TABLE.outtable TD.billtitle {
+	FONT-FAMILY: "宋体"; COLOR: #ff0000; FONT-SIZE: 14.7px; TEXT-DECORATION: none
+}
+TABLE.outtable TD.simulateline {
+	BACKGROUND-COLOR: #ff0000
+}
+TABLE.thickbordertable {
+	BORDER-BOTTOM: #ff0000 1px solid; BORDER-LEFT: #ff0000 1px solid; BORDER-TOP: #ff0000 1px solid; BORDER-RIGHT: #ff0000 1px solid
+}
+TABLE.billtable {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 100%; FONT-FAMILY: Tahoma; WHITE-SPACE: nowrap; COLOR: #ff0000; FONT-SIZE: 12px; BORDER-TOP: #ff0000 1px solid; BORDER-RIGHT: #ff0000 1px solid
+}
+.billtable TD {
+	BORDER-BOTTOM: #ff0000 1px solid; BORDER-LEFT: #ff0000 1px solid; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+TABLE.billtable INPUT {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 100%; FONT-FAMILY: Tahoma; BACKGROUND: none transparent scroll repeat 0% 0%; LETTER-SPACING: 0px; FONT-SIZE: 12px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; WORD-SPACING: normal
+}
+TABLE.billtable TEXTAREA {
+	BACKGROUND-COLOR: #ffffff; FONT-FAMILY: Tahoma; FONT-SIZE: 12px
+}
+TABLE.billtable SELECT {
+	BACKGROUND-COLOR: #ffffff; FONT-FAMILY: Tahoma; FONT-SIZE: 12px
+}
+.billtable TD.havebackground {
+	BACKGROUND-IMAGE: url(../image/jzpz-red.gif)
+}
+.billtable TD.havebackground INPUT {
+	BORDER-BOTTOM: 0px; TEXT-ALIGN: right; BORDER-LEFT: 0px; WIDTH: 100%; LETTER-SPACING: 8px; COLOR: #000000; BORDER-TOP: 0px; BORDER-RIGHT: 0px; TEXT-DECORATION: none
+}

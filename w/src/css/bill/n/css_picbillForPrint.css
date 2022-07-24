@@ -1,0 +1,95 @@
+﻿@charset "utf-8";
+/* 此样式表用于机打的表单  */
+
+input[type="text"]{
+	font-family:"宋体";
+	font-size:12px;
+	/*font-weight:bold;*/
+    background-color:transparent;
+	background:none;
+	letter-spacing: 0px;
+	word-spacing: normal;
+	border: 1px none #CCCCCC;
+	overflow:hidden;
+	width:99%;
+	height:100%;
+	line-height:16px;
+}
+
+textarea {
+	font-family:"宋体";
+	font-size: 12px;
+	/*font-weight:bold;*/
+    background-color:transparent;
+	background:none;
+	letter-spacing: 0px;
+	word-spacing: normal;
+	border: 1px none #CCCCCC;
+	overflow:hidden;
+	width:99%;
+	height:100%;
+}
+
+/*IE6下INPUT输入样式*/
+*html input{
+	font-family:"宋体";
+	font-size: 12px;
+	/*font-weight:bold;*/
+    background-color:transparent;
+	background:none;
+	letter-spacing: 0px;
+	word-spacing: normal;
+	border: 1px none #CCCCCC;
+	overflow:hidden;
+	width:99%;
+	height:100%;
+	line-height:16px;
+}
+
+/*IE6下TEXTAREA输入样式*/
+*html textarea {
+	font-family:"宋体";
+	font-size:12px;
+	/*font-weight:bold;*/
+    background-color:transparent;
+	background:none;
+	letter-spacing: 0px;
+	word-spacing: normal;
+	border: 1px none #CCCCCC;
+	overflow:hidden;
+	width:99%;
+	height:100%;
+}
+
+/*数字类型 代号：n */
+input.isNumeric {
+	font-family:"宋体";
+	font-size: 14px;
+	line-height:14px;
+}
+
+/*小写金额 代号：m */
+input.isMoney {
+	font-family:"宋体";
+	font-size: 14px;
+	line-height:14px;
+	text-align:right;
+	letter-spacing:7px
+}
+	
+/*日期类型 代号：d */	
+input.isDate {
+	font-family:"宋体";
+	font-size: 14px;
+	line-height:14px;
+	text-align:right;
+}
+
+/*将需要插入INPUT的DIV标识出来*/
+.isInput {
+	background-color:#FF0;
+}
+
+.errorForAP{
+	background-color:#F03;
+}

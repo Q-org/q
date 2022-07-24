@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* 此样式表用于表格形式的表单  */
+
+#mainBillDiv textarea {
+	font-family:"楷体_GB2312","楷体";
+	font-size: 14px;
+	font-weight:bold;
+    background-color:transparent;
+	background:none;
+	letter-spacing: 0px;
+	word-spacing: normal;
+	border: 1px none #CCCCCC;
+	overflow:hidden;
+	width:99%;
+}
+
+/*IE6下INPUT输入样式*/
+*html input{
+	font-family:"楷体_GB2312","楷体";
+	font-size: 14px;
+	font-weight:bold;
+    background-color:transparent;
+	background:none;
+	letter-spacing: 0px;
+	word-spacing: normal;
+	border: 1px none #CCCCCC;
+	overflow:hidden;
+	width:97%;
+	line-height:15px;
+}
+
+
+/*数字类型 代号：n */
+input.isNumeric {
+	font-family:"宋体";
+	font-size: 12px;
+	font-style:oblique;
+	line-height:14px;
+}
+
+/*小写金额 代号：m */
+input.isMoney {
+	font-family:"宋体";
+	font-size: 12px;
+	font-style:oblique;
+	line-height:12px;
+	text-align:right;
+	letter-spacing:7px
+}
+	
+/*日期类型 代号：d */	
+input.isDate {
+	font-family:"宋体";
+	font-size: 12px;
+	font-style:oblique;
+	line-height:16px;
+	text-align:right;
+}
+
+/*将需要插入INPUT的DIV标识出来*/
+.isInput {
+	background-color:#FF0;
+}

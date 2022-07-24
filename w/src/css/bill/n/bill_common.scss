@@ -1,0 +1,617 @@
+/* styles.module.scss */
+
+.bill {
+	.tableList {
+		border: 0px solid #8da3cc;
+		font-size: 14px;
+		color: #000000;
+		text-align: left;
+		width: 99%;
+		border-collapse: collapse;
+		background-color: #ffffff;
+		line-height: 24px;
+	}
+
+	.tableListHeader {
+		text-align: left;
+		background-color: #FEFEFE;
+		color: #5875AD;
+		font-weight: bold;
+		font-size: 18px;
+		line-height: 25px;
+		text-indent: 28px;
+		letter-spacing: 1px;
+		height: 28px;
+		background-image: url(./image/bg_line.jpg);
+		background-position: 80px 30px;
+		background-repeat: no-repeat;
+	}
+
+	.tableTitleBg {
+		height: 5px;
+		background-image: url(./image/bg_short_line_2.jpg);
+		background-position: 30px 0px;
+		background-repeat: no-repeat;
+		background-position: right;
+
+	}
+
+	.tableListHeader td {
+		background-image: url(./image/title_logo.gif);
+		background-position: 5px;
+		background-repeat: no-repeat;
+		text-indent: 24px;
+	}
+
+	.titleHeader {
+		background-position: 5px;
+		background-repeat: no-repeat;
+		text-indent: 80px;
+		margin-left: 24px;
+		font-size: 14px;
+		background-image: url(./image/title_sxrw.gif);
+	}
+
+	#title_tr_3 {
+		background-color: #BCD2E7;
+	}
+
+	.bill_1 {
+		background-image: url(./image/bill_1.gif);
+		background-repeat: no-repeat;
+		padding-left: 20px;
+	}
+
+	.bill_2 {
+		background-image: url(./image/bill_2.gif);
+		background-repeat: no-repeat;
+		padding-left: 20px;
+	}
+
+	.rowList0 {
+		text-indent: 24px;
+		font-size: 14px;
+	}
+
+	td {
+		font-size: 9pt;
+	}
+
+	input {
+		font-size: 12px;
+		color: #000048
+	}
+
+	body {
+		font-family: Verdana;
+		FONT-SIZE: 12px;
+		margin-left: 0px;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		background-color: #FbFbFb;
+		padding-left: 10px;
+	}
+
+	form {
+		margin: 0px;
+		display: inline
+	}
+
+	img {
+		border: 0;
+	}
+
+	.text3 {
+		font-size: 14px;
+		color: #000000;
+		text-decoration: none;
+		line-height: 20px;
+	}
+
+	.title_black {
+		font-size: 24px;
+		color: #000000;
+		text-decoration: none;
+	}
+
+	.word_title {
+		font-family: "锟斤拷锟斤拷";
+		font-size: 16px;
+		font-weight: bold;
+		color: #003063;
+		text-decoration: none;
+	}
+
+	.title_small {
+		font-size: 18px;
+		color: #000000;
+		text-decoration: none;
+		letter-spacing: 2px;
+	}
+
+	.word_normal {
+		font-size: 12px;
+		color: #000000;
+		text-decoration: none;
+	}
+
+	.table_space {
+		text-decoration: none;
+		letter-spacing: 0px;
+		word-spacing: normal;
+		width: 10px;
+		color: #000000;
+		border: 1px none #CCCCCC;
+	}
+
+	.table_space_2 {
+		text-decoration: none;
+		letter-spacing: 6px;
+		color: #000000;
+		border: 0px none #CCCCCC;
+		text-align: right;
+
+	}
+
+	.table_space_3 {
+		text-decoration: none;
+		letter-spacing: 1.8mm;
+		color: #000000;
+		border: 0px none #CCCCCC;
+		text-align: right;
+
+	}
+
+	.table_space_4 {
+		text-decoration: none;
+		letter-spacing: 6px;
+		color: #000000;
+		border: 0px none #CCCCCC;
+		text-align: right;
+
+	}
+
+	.table_space_5 {
+		text-decoration: none;
+		letter-spacing: 4px;
+		color: #000000;
+		border: 0px none #CCCCCC;
+		text-align: right;
+
+	}
+
+	.table_space_6 {
+		text-decoration: none;
+		letter-spacing: 1.45mm;
+		color: #000000;
+		border: 0px none #CCCCCC;
+		text-align: right;
+
+	}
+
+	.table_space_7 {
+		text-decoration: none;
+		letter-spacing: 12px;
+		color: #000000;
+		border: 0px none #CCCCCC;
+		text-align: right;
+
+
+	}
+
+	.table_input {
+		text-decoration: none;
+		letter-spacing: 0px;
+		word-spacing: normal;
+		border: 1px none #CCCCCC;
+	}
+
+	.number_red {
+		font-size: 18px;
+		font-weight: bold;
+		color: #FF0000;
+		text-decoration: none;
+	}
+
+	.number_red_2 {
+		font-size: 24px;
+		color: #FF0000;
+		text-decoration: none;
+	}
+
+	.word_red {
+		font-size: 12px;
+		color: #FF0000;
+		text-decoration: none;
+	}
+
+	.table_spacedouble {
+		text-decoration: none;
+		letter-spacing: 0px;
+		word-spacing: normal;
+		width: 16px;
+		border: 1px none #CCCCCC;
+	}
+
+	.title_ks {
+		font-size: 24px;
+		color: #000000;
+		text-decoration: none;
+		font-weight: bold;
+		font-family: "锟斤拷锟斤拷";
+		letter-spacing: 2px;
+	}
+
+	.title_blue {
+
+		font-size: 24px;
+		color: #003063;
+		text-decoration: none;
+	}
+
+	.word_blue {
+
+		font-size: 12px;
+		color: #003063;
+		text-decoration: none;
+	}
+
+	.title_small_blue {
+
+		font-size: 16px;
+		color: #003063;
+		text-decoration: none;
+	}
+
+	.title_brown {
+		font-size: 24px;
+		color: #993366;
+		text-decoration: none;
+	}
+
+	.title_small_brown {
+		font-size: 16px;
+		color: #993366;
+		text-decoration: none;
+	}
+
+	.word_brown {
+		font-size: 12px;
+		color: #993366;
+		text-decoration: none;
+	}
+
+	.title_small_green {
+		font-size: 16px;
+		color: #008200;
+		text-decoration: none;
+	}
+
+	.title_green {
+
+
+
+		font-size: 24px;
+		color: #008000;
+		text-decoration: none;
+	}
+
+	.word_green {
+
+
+
+		font-size: 12px;
+		color: #008000;
+		text-decoration: none;
+	}
+
+	.table_none {
+
+		text-decoration: none;
+		letter-spacing: 0px;
+		word-spacing: normal;
+		border: 1px none #CCCCCC;
+	}
+
+	.word_orange {
+		font-size: 12px;
+		color: #9C3000;
+		text-decoration: none;
+	}
+
+	.title_small_orange {
+		font-size: 16px;
+		color: #9C3000;
+		text-decoration: none;
+	}
+
+	.title_orange {
+		font-size: 24px;
+		color: #9C3000;
+		text-decoration: none;
+	}
+
+	.word_blueCopy {
+		font-size: 13px;
+		color: #003063;
+		text-decoration: none;
+		line-height: 25px;
+	}
+
+	.table_inputCopy {
+
+		text-decoration: none;
+		letter-spacing: 0px;
+		word-spacing: normal;
+		border: 1px none #CCCCCC;
+	}
+
+	.hr {
+		border-color: #000000 black #FF0000;
+		border-style: dotted;
+		border-top-width: 1px;
+		border-right-width: 0px;
+		border-bottom-width: 1px;
+		border-left-width: 0px
+	}
+
+	.title_greenCopy {
+		font-size: 16px;
+		color: #008000;
+		text-decoration: none;
+	}
+
+	.title_greenCopy2 {
+
+		font-size: 18px;
+		color: #008000;
+		text-decoration: none;
+	}
+
+	.word_titleCopy {
+
+		font-family: "锟斤拷锟斤拷";
+		font-size: 12px;
+		font-weight: bold;
+		color: #003063;
+		text-decoration: none;
+	}
+
+	.word_blueCopy {
+
+
+		font-size: 14px;
+		color: #003063;
+		text-decoration: none;
+	}
+
+	.word_blackCopy {
+		font-size: 13px;
+		color: #000000;
+		text-decoration: none;
+		line-height: 23px;
+	}
+
+	.title_blackCopy_copy {
+		font-size: 18px;
+		color: #000000;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+	.title_greenCopy_copy {
+		font-size: 18px;
+		color: #008000;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+	.title_blueCopy_copy {
+		font-size: 18px;
+		color: #003063;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+	.title_brownCopy_copy {
+		font-size: 18px;
+		color: #993366;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+	.table_inputCopy_2 {
+		text-decoration: none;
+		letter-spacing: 0px;
+		word-spacing: normal;
+		border-top-width: 1px;
+		border-right-width: 1px;
+		border-bottom-width: 1px;
+		border-left-width: 1px;
+		border-top-style: none;
+		border-right-style: none;
+		border-bottom-style: solid;
+		border-left-style: none;
+		border-top-color: #CCCCCC;
+		border-right-color: #CCCCCC;
+		border-bottom-color: #000000;
+		border-left-color: #CCCCCC;
+	}
+
+	.table_inputCopy_3 {
+
+		text-decoration: none;
+		letter-spacing: 0px;
+		word-spacing: normal;
+		border-top-width: 1px;
+		border-right-width: 1px;
+		border-bottom-width: 1px;
+		border-left-width: 1px;
+		border-top-style: none;
+		border-right-style: none;
+		border-bottom-style: dotted;
+		border-left-style: none;
+		border-top-color: #CCCCCC;
+		border-right-color: #CCCCCC;
+		border-bottom-color: #000000;
+		border-left-color: #CCCCCC;
+	}
+
+	a {
+		color: #00468C;
+		text-decoration: none;
+		font-size: 14px;
+	}
+
+	a:hover {
+		text-decoration: underline;
+		font-size: 14px;
+		color: #009900;
+	}
+
+	锟斤拷 a锟斤拷visited {
+		color: #003366;
+		text-decoration: none;
+	}
+
+	锟斤拷.table_input2 {
+		text-decoration: none;
+		letter-spacing: 0px;
+		word-spacing: normal;
+		border: 1px none #CCCCCC;
+		color: #FF0000;
+	}
+
+	.drag_resize {
+		position: absolute;
+		margin: -1px 0 0 -1px;
+		padding: 0;
+		/*border:1px dashed #000;*/
+		border: 1px solid #000;
+		/*display:none;*/
+		z-index: 15;
+		width: 100px;
+		cursor: hand;
+	}
+
+	/*日期类型 代号：d */
+	input.isDate {
+		font-family: "宋体";
+		font-size: 14px;
+		line-height: 14px;
+		text-align: right;
+	}
+
+	.drag_resize span.north-west-resize {
+		position: absolute;
+		border: 1px solid #FFF;
+		width: 5px;
+		height: 5px;
+		background-color: #000;
+		font-size: 0;
+		cursor: nw-resize;
+		left: 0;
+		top: 0;
+		margin-left: -1px;
+		margin-top: -1px;
+	}
+
+	.drag_resize span.north-resize {
+		position: absolute;
+		border: 1px solid #FFF;
+		width: 5px;
+		height: 5px;
+		background-color: #000;
+		font-size: 0;
+		cursor: n-resize;
+		left: 50%;
+		top: 0;
+		margin-left: -3px;
+		margin-top: -1px;
+	}
+
+	.drag_resize span.north-east-resize {
+		position: absolute;
+		border: 1px solid #FFF;
+		width: 5px;
+		height: 5px;
+		background-color: #000;
+		font-size: 0;
+		cursor: ne-resize;
+		right: 0;
+		top: 0;
+		margin-right: -1px;
+		margin-top: -1px;
+	}
+
+	.drag_resize span.west-resize {
+		position: absolute;
+		border: 1px solid #FFF;
+		width: 5px;
+		height: 5px;
+		background-color: #000;
+		font-size: 0;
+		cursor: w-resize;
+		left: 0;
+		top: 50%;
+		margin-left: -1px;
+		margin-top: -3px;
+	}
+
+	.drag_resize span.east-resize {
+		position: absolute;
+		border: 1px solid #FFF;
+		width: 5px;
+		height: 5px;
+		background-color: #000;
+		font-size: 0;
+		cursor: e-resize;
+		right: 0;
+		top: 50%;
+		margin-right: -1px;
+		margin-top: -3px;
+	}
+
+	.drag_resize span.south-west-resize {
+		position: absolute;
+		border: 1px solid #FFF;
+		width: 5px;
+		height: 5px;
+		background-color: #000;
+		font-size: 0;
+		cursor: sw-resize;
+		left: 0;
+		bottom: 0;
+		margin-left: -1px;
+		margin-bottom: -1px;
+	}
+
+	.drag_resize span.south-resize {
+		position: absolute;
+		border: 1px solid #FFF;
+		width: 5px;
+		height: 5px;
+		background-color: #000;
+		font-size: 0;
+		cursor: s-resize;
+		left: 50%;
+		bottom: 0;
+		margin-left: -3px;
+		margin-bottom: -1px;
+	}
+
+	.drag_resize span.south-east-resize {
+		position: absolute;
+		border: 1px solid #FFF;
+		width: 5px;
+		height: 5px;
+		background-color: #000;
+		font-size: 0;
+		cursor: se-resize;
+		right: 0;
+		bottom: 0;
+		margin-right: -1px;
+		margin-bottom: -1px;
+	}
+}

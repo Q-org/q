@@ -1,0 +1,40 @@
+.drag_resize{
+	position:absolute;
+	margin:-1px 0  0 -1px; 
+	padding:0;
+	/*border:1px dashed #000;*/
+	border:1px solid #000;
+	/*display:none;*/
+	z-index:15; 
+	width:100px;
+	cursor:hand;
+}
+
+.drag_resize span.north-west-resize{
+	position:absolute;border: 1px solid #FFF;width:5px;height:5px;background-color:#000;font-size:0;
+	cursor:nw-resize;left:0;top:0;	margin-left:-1px; margin-top:-1px;}
+.drag_resize span.north-resize	  {
+	position:absolute;border: 1px solid #FFF;width:5px;height:5px;background-color:#000;font-size:0;
+	cursor:n-resize;	left:50%;top:0;	margin-left:-3px; margin-top:-1px;}
+.drag_resize span.north-east-resize{
+	position:absolute;border: 1px solid #FFF;width:5px;height:5px;background-color:#000;font-size:0;
+	cursor:ne-resize;right:0;top:0;	margin-right:-1px;margin-top:-1px;}
+
+.drag_resize span.west-resize	  {
+	position:absolute;border: 1px solid #FFF;width:5px;height:5px;background-color:#000;font-size:0;
+	cursor:w-resize;left:0;top:50%;	margin-left:-1px; margin-top:-3px;}
+.drag_resize span.east-resize	  {
+	position:absolute;border: 1px solid #FFF;width:5px;height:5px;background-color:#000;font-size:0;
+	cursor:e-resize;right:0;top:50%; margin-right:-1px;margin-top:-3px;}
+
+.drag_resize span.south-west-resize{
+	position:absolute;border: 1px solid #FFF;width:5px;height:5px;background-color:#000;font-size:0;
+	cursor:sw-resize;left:0;bottom:0;  margin-left:-1px; margin-bottom:-1px;}
+.drag_resize span.south-resize	  {
+	position:absolute;border: 1px solid #FFF;width:5px;height:5px;background-color:#000;font-size:0;
+	cursor:s-resize; left:50%;bottom:0;margin-left:-3px; margin-bottom:-1px;}
+.drag_resize span.south-east-resize{
+	position:absolute;border: 1px solid #FFF;width:5px;height:5px;background-color:#000;font-size:0;
+	cursor:se-resize;right:0;bottom:0; margin-right:-1px;margin-bottom:-1px;}
+	
+	

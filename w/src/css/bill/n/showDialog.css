@@ -1,0 +1,28 @@
+ 
+#backgroundPopup{
+display:none;
+position:absolute;
+_position:absolute; /* hack for internet explorer 6*/
+height:100%;
+width:100%;
+top:0;
+left:0;
+background:#CCCCCC;
+border:0px solid #cecece;
+z-index:2000;
+}
+
+#backgroundPopup_all{
+display:none;
+position:fixed;
+_position:absolute; /* hack for internet explorer 6*/
+height:100%;
+width:100%;
+top:0;
+left:0;
+background:#CCCCCC;
+border:0px solid #cecece;
+z-index:2000;
+}
+ 
+ 

@@ -1,0 +1,219 @@
+BODY {
+	PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; FONT: 12px "Tahoma"; BACKGROUND: #f8fbfd repeat-x; COLOR: #ffffff; PADDING-TOP: 0px
+}
+.buttoncommon {
+	BORDER-BOTTOM: #27454c 1px solid; BORDER-LEFT: #bacbd5 1px solid; LINE-HEIGHT: normal; BACKGROUND-COLOR: #669acc; FONT-VARIANT: normal; FONT-STYLE: normal; HEIGHT: 20px; COLOR: #ffffff; FONT-SIZE: 12px; BORDER-TOP: #bacbd5 1px solid; FONT-WEIGHT: normal; BORDER-RIGHT: #27454c 1px solid
+}
+.imgnoborder {
+	BORDER-BOTTOM: #efd9ce 0px solid; BORDER-LEFT: #efd9ce 0px solid; MARGIN-TOP: 3px; BORDER-TOP: #efd9ce 0px solid; BORDER-RIGHT: #efd9ce 0px solid
+}
+A {
+	TEXT-DECORATION: none
+}
+A:link {
+	COLOR: #455399
+}
+A:visited {
+	COLOR: #455399
+}
+A:hover {
+	COLOR: #ff0000
+}
+A:active {
+	COLOR: #0000ff
+}
+#websitename {
+	FONT-FAMILY: "Tahoma"; COLOR: #ffffff; FONT-SIZE: 14px
+}
+#maintop {
+	WIDTH: 1002px; BACKGROUND: url(../images/maintop.jpg); HEIGHT: 86px
+}
+#maintop2 {
+	WIDTH: 1002px; BACKGROUND: url(../images/maintop2.jpg) #ffffff repeat-x; HEIGHT: 34px
+}
+#maintop01 {
+	WIDTH: 100%; BACKGROUND: url(../images/titlebg.jpg) repeat-x; HEIGHT: 35px; COLOR: #ffffff
+}
+#maintop01 TD {
+	COLOR: #ffffff
+}
+.adminbg {
+	WIDTH: 100%; BACKGROUND: repeat-x; HEIGHT: 30px; COLOR: #000000
+}
+.teachertable {
+	BORDER-BOTTOM: #ebeff0 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #ebeff0 1px solid; WIDTH: 140px; BACKGROUND: url(../images/teachertablebg.gif) #ffffff repeat-x; HEIGHT: 30px; BORDER-TOP: #ebeff0 1px solid; BORDER-RIGHT: #ebeff0 1px solid
+}
+.kjtitle {
+	TEXT-INDENT: 15px; WIDTH: 100%; BACKGROUND: url(../images/kjtitle.jpg) repeat-x; HEIGHT: 37px; COLOR: #ffffff; FONT-WEIGHT: bold
+}
+.teachertable2 {
+	TEXT-ALIGN: left; WIDTH: 170px; BACKGROUND: url(../images/teachertable.jpg) #ffffff repeat-x; HEIGHT: 460px
+}
+.teachertable2 TD {
+	TEXT-ALIGN: left
+}
+TR {
+	TEXT-ALIGN: left
+}
+#bottom {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-COLLAPSE: collapse; BACKGROUND: #e3edf8; PADDING-TOP: 0px
+}
+#bottom2 {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-COLLAPSE: collapse; BACKGROUND: #e3edf8; PADDING-TOP: 0px
+}
+#bot {
+	BORDER-BOTTOM: #076dbd 1px solid; BORDER-LEFT: #076dbd 1px solid; WIDTH: 100%; BORDER-COLLAPSE: collapse; BACKGROUND: none transparent scroll repeat 0% 0%; HEIGHT: 45px; BORDER-TOP: #076dbd 1px solid; BORDER-RIGHT: #076dbd 1px solid
+}
+.kctable2 {
+	BORDER-BOTTOM: #a5bdd5 1px solid; BORDER-LEFT: #a5bdd5 1px solid; BORDER-COLLAPSE: collapse; BACKGROUND: #e8eef4; COLOR: #575757; BORDER-TOP: #a5bdd5 1px solid; BORDER-RIGHT: #a5bdd5 1px solid
+}
+.kctable2 TR {
+	BORDER-BOTTOM: #ffffff 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #ffffff 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #eff3f8; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; BORDER-COLLAPSE: collapse; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; PADDING-TOP: 1px
+}
+.kctable2 TD {
+	BORDER-BOTTOM: #a5bdd5 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #a5bdd5 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #eff3f8; PADDING-LEFT: 5px; PADDING-RIGHT: 3px; BORDER-COLLAPSE: collapse; COLOR: #575757; BORDER-TOP: #a5bdd5 1px solid; BORDER-RIGHT: #a5bdd5 1px solid; PADDING-TOP: 1px
+}
+.kctable2 IMG {
+	BORDER-BOTTOM: #efd9ce 2px solid; BORDER-LEFT: #efd9ce 2px solid; MARGIN-TOP: 3px; BORDER-TOP: #efd9ce 2px solid; CURSOR: hand; BORDER-RIGHT: #efd9ce 2px solid
+}
+.kctable2 INPUT {
+	FONT-FAMILY: "Tahoma"; FONT-SIZE: 12px
+}
+SELECT {
+	FONT-FAMILY: "Tahoma"; FONT-SIZE: 12px
+}
+TEXTAREA {
+	FONT-FAMILY: "Tahoma"; FONT-SIZE: 12px
+}
+.tablebill3 {
+	BORDER-BOTTOM: #9fa0a0 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #9fa0a0 1px solid; LINE-HEIGHT: 25px; BACKGROUND-COLOR: #ffffff; MARGIN: 0px 0px 8px; BORDER-COLLAPSE: collapse; FONT-FAMILY: "Tahoma"; HEIGHT: 25px; COLOR: #000000; FONT-SIZE: 12px; BORDER-TOP: #9fa0a0 1px solid; BORDER-RIGHT: #9fa0a0 1px solid
+}
+.tablebill3 TD {
+	BORDER-BOTTOM: #9fa0a0 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #9fa0a0 1px solid; LINE-HEIGHT: 25px; FONT-FAMILY: "Tahoma"; HEIGHT: 25px; COLOR: #000000; FONT-SIZE: 12px; BORDER-TOP: #9fa0a0 1px solid; BORDER-RIGHT: #9fa0a0 1px solid
+}
+TR {
+	BORDER-BOTTOM: #9fa0a0 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #9fa0a0 1px solid; LINE-HEIGHT: 25px; FONT-FAMILY: "Tahoma"; HEIGHT: 25px; COLOR: #000000; FONT-SIZE: 12px; BORDER-TOP: #9fa0a0 1px solid; BORDER-RIGHT: #9fa0a0 1px solid
+}
+.tdfirst01 {
+	BACKGROUND-COLOR: #639bce; COLOR: #000000; FONT-WEIGHT: bold
+}
+.trfirst01 {
+	BORDER-BOTTOM: #dde6f0 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #dde6f0 0px solid; PADDING-LEFT: 0.5em; BACKGROUND: #639bce; COLOR: #ffffff; BORDER-TOP: #dde6f0 0px solid; BORDER-RIGHT: #dde6f0 0px solid
+}
+.trfirst01 TD {
+	BORDER-BOTTOM: #ffffff 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #ffffff 1px solid; PADDING-LEFT: 0.5em; BACKGROUND: #639bce; COLOR: #ffffff; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid
+}
+.trfirst01 INPUT {
+	BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; FONT-FAMILY: "Tahoma"; FONT-SIZE: 12px; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid
+}
+.tdfirst01 {
+	BACKGROUND-COLOR: #d7d8da; COLOR: #064d94; FONT-WEIGHT: bold
+}
+.table05 {
+	BORDER-BOTTOM: 0px; TEXT-ALIGN: center; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+.table05 TD {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.table05 TR {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.kctable6 {
+	BACKGROUND: #fafbfc; COLOR: #000000
+}
+.kctable7 {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-COLLAPSE: collapse; BACKGROUND: #7daee9; COLOR: #000000; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.kctable7 TR {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BACKGROUND-COLOR: #7daee9; BORDER-COLLAPSE: collapse; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.kctable7 TD {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BACKGROUND-COLOR: #7daee9; BORDER-COLLAPSE: collapse; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+TABLE {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.kctable8 {
+	BORDER-BOTTOM: 0px; TEXT-ALIGN: left; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px; PADDING-TOP: 0px
+}
+.lawfile02 {
+	BORDER-BOTTOM: #ffffff 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #ffffff 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #e8eef4; PADDING-LEFT: 5px; PADDING-RIGHT: 3px; BORDER-COLLAPSE: collapse; COLOR: #575757; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; PADDING-TOP: 1px
+}
+#newsdiv {
+	FLOAT: left; COLOR: #455399; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+#newsdiv UL {
+	LIST-STYLE-TYPE: none; FLOAT: none
+}
+#newsdiv LI {
+	MARGIN: 0px 15px 0px 0px; FLOAT: left
+}
+#newsdiv LI A:link {
+	BORDER-BOTTOM: #a5bdd5 0px solid; BORDER-LEFT: #a5bdd5 1px solid; PADDING-BOTTOM: 0px; MARGIN: 0px 2px 0px 0px; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BACKGROUND: #dde6f0; FLOAT: left; COLOR: #575757; FONT-SIZE: 12px; BORDER-TOP: #a5bdd5 1px solid; FONT-WEIGHT: lighter; BORDER-RIGHT: #a5bdd5 0px solid; PADDING-TOP: 0px
+}
+#newsdiv LI A:visited {
+	BORDER-BOTTOM: #a5bdd5 0px solid; BORDER-LEFT: #a5bdd5 1px solid; PADDING-BOTTOM: 0px; MARGIN: 0px 2px 0px 0px; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BACKGROUND: #dde6f0; FLOAT: left; COLOR: #575757; FONT-SIZE: 12px; BORDER-TOP: #a5bdd5 1px solid; FONT-WEIGHT: lighter; BORDER-RIGHT: #a5bdd5 0px solid; PADDING-TOP: 0px
+}
+#newsdiv LI A:hover {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 2px 0px 0px; PADDING-LEFT: 7px; PADDING-RIGHT: 7px; BACKGROUND: #ff9b93; FLOAT: left; COLOR: #000000; PADDING-TOP: 0px
+}
+#newsdiv10 {
+	FLOAT: left
+}
+#newsdiv10 UL {
+	LIST-STYLE-TYPE: none; FLOAT: none
+}
+#newsdiv10 LI {
+	MARGIN: 0px 2px 0px 0px; FLOAT: left
+}
+#newdiv10 LI A:link {
+	BACKGROUND: #ffff00
+}
+#newdiv10 LI A:hover {
+	BACKGROUND: #ff0000
+}
+#newsmain {
+	MARGIN: 0px; FLOAT: left
+}
+#topheader {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 1002px; PADDING-RIGHT: 0px; BACKGROUND: url(../images/topimages01.gif) #ffffff; HEIGHT: 120px; PADDING-TOP: 0px
+}
+.tablecenter {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.pageHeader TD {
+	BORDER-BOTTOM: #a5bdd5 0px solid; TEXT-ALIGN: center; BORDER-LEFT: #a5bdd5 1px solid; PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; BACKGROUND: #e8eef4; COLOR: #455399; BORDER-TOP: #a5bdd5 1px solid; FONT-WEIGHT: bold; BORDER-RIGHT: #a5bdd5 0px solid; PADDING-TOP: 0px
+}
+.gridHeader TD {
+	BORDER-BOTTOM: #ffffff 1px solid; TEXT-ALIGN: center; BORDER-LEFT: #ffffff 1px solid; FONT-FAMILY: ËÎÌו; BACKGROUND: #639bce; COLOR: #ffffff; FONT-SIZE: 12px; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid
+}
+.linkHeader A {
+	BORDER-BOTTOM: #a5bdd5 0px solid; TEXT-ALIGN: center; BORDER-LEFT: #a5bdd5 1px solid; LINE-HEIGHT: 21pt; WIDTH: 80px; BACKGROUND: #dde6f0; HEIGHT: 21pt; COLOR: #455399; BORDER-TOP: #a5bdd5 1px solid; FONT-WEIGHT: lighter; BORDER-RIGHT: #a5bdd5 0px solid
+}
+.listHeader TD {
+	BORDER-BOTTOM: #ffffff 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #ffffff 1px solid; PADDING-LEFT: 0.5em; FONT-FAMILY: ËÎÌו; BACKGROUND: #639bce; COLOR: #ffffff; FONT-SIZE: 12px; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid
+}
+.listHeader A {
+	TEXT-ALIGN: left; COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.listHeader A:visited {
+	TEXT-ALIGN: left; COLOR: #ffffff; TEXT-DECORATION: underline
+}
+.menulink {
+	BORDER-BOTTOM: #a5bdd5 0px solid; BORDER-LEFT: #a5bdd5 1px solid; WIDTH: 80px; BACKGROUND: #dde6f0; FLOAT: left; COLOR: #575757; BORDER-TOP: #a5bdd5 1px solid; BORDER-RIGHT: #a5bdd5 0px solid
+}
+.menulink A {
+	PADDING-LEFT: 5px; DISPLAY: block; COLOR: #575757; TEXT-DECORATION: none
+}
+.menulink A:hover {
+	COLOR: #4ea1e3
+}
+.menulink A:link {
+	COLOR: #575757
+}
+.jsplink {
+	COLOR: #455399; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.zstable {
+	BORDER-BOTTOM: #7f9db9 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #7f9db9 1px solid; PADDING-BOTTOM: 5px; LINE-HEIGHT: 25px; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; BACKGROUND: #fcfae4; FONT-SIZE: 12px; BORDER-TOP: #7f9db9 1px solid; BORDER-RIGHT: #7f9db9 1px solid; PADDING-TOP: 5px
+}
