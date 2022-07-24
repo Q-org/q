@@ -15,9 +15,9 @@ import { ServeStaticModule } from '@nestjs/serve-static';
 
 @Module({
   imports: [AuthModule, UsersModule, CatsModule, JavaModule,
-    ServeStaticModule.forRoot({
+    /* ServeStaticModule.forRoot({
       rootPath: join(__dirname, '../../../w/', 'docs'),
-    }),
+    }), */
   ],
   controllers: [AppController],
   providers: [AppService, {
