@@ -5,6 +5,7 @@ node_modules
 /build
 dist
 .git
+
 # Generated files
 .docusaurus
 .cache-loader
